@@ -1,23 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 className='text-white text-4xl lg:text-6xl p-6'>Join the millions of users worldwide trusting Shohoj Pay everyday</h1>
+      <button className='bg-white hover:bg-purple-200 text-xl py-2 px-12 rounded-full font-semibold'>Sign Up For Free</button>
     </div>
   );
 }
